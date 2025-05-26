@@ -277,7 +277,7 @@ library BLS {
             function dstPrime(o_, i_) -> _o {
                 mstore8(o_, i_) // 1.
                 mstore(add(o_, 0x01), "BLS_SIG_BLS12381G2_XMD:SHA-256_S") // 32.
-                mstore(add(o_, 0x21), "SWU_RO_NUL_\x2b") // 12.
+                mstore(add(o_, 0x21), "SWU_RO_POP_\x2b") // 12.
                 _o := add(0x2d, o_)
             }
 
