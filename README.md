@@ -1,4 +1,4 @@
-# <img src="logo.svg" alt="solady" height="118"/>
+# <img src="logo.svg" alt="solady" height="118" width="305"/>
 
 [![NPM][npm-shield]][npm-url]
 [![CI][ci-shield]][ci-url]
@@ -60,6 +60,7 @@ tokens
 ├─ ERC721 — "Simple ERC721 implementation with storage hitchhiking"
 ├─ WETH — "Simple Wrapped Ether implementation"
 utils
+├─ Base58 — "Library for Base58 encoding and decoding"
 ├─ Base64 — "Library for Base64 encoding and decoding"
 ├─ CallContextChecker — "Call context checker mixin"
 ├─ CREATE3 — "Deterministic deployments agnostic to the initialization code"
@@ -91,6 +92,7 @@ utils
 ├─ LibZip — "Library for compressing and decompressing bytes"
 ├─ Lifebuoy — "Class that allows for rescue of ETH, ERC20, ERC721 tokens"
 ├─ MerkleProofLib — "Library for verification of Merkle proofs"
+├─ MerkleTreeLib — "Library for generating Merkle trees"
 ├─ MetadataReaderLib — "Library for reading contract metadata robustly"
 ├─ MinHeapLib — "Library for managing a min-heap in storage or memory"
 ├─ Multicallable — "Contract that enables a single call to call multiple methods on itself"
@@ -172,7 +174,7 @@ This repository is inspired by or directly modified from many sources, primarily
 [ci-shield]: https://img.shields.io/github/actions/workflow/status/vectorized/solady/ci.yml?branch=main&label=build
 [ci-url]: https://github.com/vectorized/solady/actions/workflows/ci.yml
 
-[solidity-shield]: https://img.shields.io/badge/solidity-%3E=0.8.4%20%3C=0.8.28-aa6746
+[solidity-shield]: https://img.shields.io/badge/solidity-%3E=0.8.4%20%3C=0.8.30-aa6746
 [solidity-ci-url]: https://github.com/Vectorized/solady/actions/workflows/ci-all-via-ir.yml
 
 [docs-shield]: https://img.shields.io/badge/docs-%F0%9F%93%84-blue
